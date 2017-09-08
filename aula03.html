@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+   <script>
+    /*
+    funcoes.. bl de cod. que executa tarefa determinada
+    function somente executa mediante uma call especifica
+    ela evita duplicacao de code ajuda quando precisa usar mais de uma vez a mesma tarefa
+    function executa TAREFA ESPECIFICA << nunca VARIAS !
+    */
+       var msg = 'MSG padrão';
+       function alerta(mensagem){
+           //alert(mensagem);
+           msglocal = mensagem;
+       }
+      // function metade(num){ // functoion com return retorna VALOR
+      //     return num / 2;
+      // }
+
+       //alerta('a metade de 15 é: '+ metade(15)); // chamada ou invocacao da function no 15 pega qualquer DADOS, formularios, bancos, etc..
+
+       function dividir(num, por = 2){ // definindo valor no parametro
+           return num / por;
+
+       }// varios paramtros com virgula
+       //alerta('O resultado da divisão é: '+ dividir(15));
+       alerta('msg via parâmetro');
+       alert(msglocal);
+       //alerta();
+       // escopo de variavel - global - em qlq lugr ou local somente na function
+    </script>
+
+</body>
+</html>
