@@ -1,6 +1,5 @@
 {
-"language": "Javascript"
-"group": "stable",
-"dist": "trusty",
-"os":"linux"
+language: node_js
+node_js:
+  - "7"
 }
