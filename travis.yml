@@ -1,3 +1,7 @@
-language: Javascript
-Javascript:
-    _"1.5"
+{
+"language": "Javascript"
+"Javascript": _"1.5",
+"group": "stable",
+"dist": "trusty",
+"os":"linux"
+}
